@@ -113,11 +113,12 @@ p, .navbar a {
     text-align: center;
 }
 
-.cont{
+.cont {
     padding-left: 3rem;
     padding-right: 3rem;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
     padding: 5px 4px;
@@ -162,7 +163,7 @@ p, .navbar a {
     transform: rotateY(180deg);
 }
 
-.social-icon{
+.social-icon {
     text-align: left;
     font-size: 20px;
 }
