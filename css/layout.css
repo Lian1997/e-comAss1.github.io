@@ -83,3 +83,22 @@ p, .navbar a {
 #active, .active{
     font-weight: bold;
 }
+
+.container{
+    position: relative;
+    max-width: 100%;
+    margin: 5px auto;
+}
+
+.content{
+    position: absolute;
+    bottom: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: rgba(0,0,0,0.5);
+    color: #f1f1f1;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 3rem;
+    text-align: center;
+}
