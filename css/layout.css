@@ -128,10 +128,9 @@ p, .navbar a {
     width: 300px;
     height: 300px;
     padding-right: 3rem;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -141,12 +140,10 @@ p, .navbar a {
     transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -154,13 +151,11 @@ p, .navbar a {
     backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
     background-color: #bbb;
     color: black;
 }
 
-/* Style the back side */
 .flip-card-back {
     background-color: #cccccc;
     color: #333;
