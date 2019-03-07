@@ -194,3 +194,20 @@ p, .navbar a {
     font-size: 20px;
     color: black;
 }
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #999999;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block:hover {
+    background-color: #00cccc;
+    color: white;
+}
