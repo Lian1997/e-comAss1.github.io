@@ -198,7 +198,7 @@ p, .navbar a {
 .block {
     display: block;
     font-weight: 400;
-    color: #212529;
+    color: white;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -213,4 +213,10 @@ p, .navbar a {
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, 
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-decoration: none;
+}
+
+.block:hover {
+    color: #999999;
+    background-color: #ffffff;
 }
